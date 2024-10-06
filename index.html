@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        @media (max-width: 767px) {
+            body {
+                font-size: 2.2em;
+                font-family: Montserrat;
+                font-weight: 500;
+                text-align: center;
+            }
+
+            .entete {
+                background-color: #fdc702;
+                padding: .5em 0em;
+            }
+
+            .menu {
+                background-color: #ffa600;
+                padding: .5em 0em;
+            }
+
+            main {
+                background-color: #8bb63f;
+                padding: .8em 0em;
+            }
+
+            .blanc {
+                padding: 2em 0em;
+                background-color: white;
+                margin: 10px 20px;
+            }
+
+            .espace {
+                padding: 3em 0em;
+            }
+
+            footer {
+                background-color: #9aaaf8;
+                padding: .5em 0em;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 959px) {
+            body {
+                font-size: 2.2em;
+                font-family: Montserrat;
+                font-weight: 500;
+                text-align: center;
+            }
+
+            .entete {
+                background-color: #fdc702;
+                padding: .5em 0em;
+            }
+
+            .menu {
+                background-color: #ffa600;
+                padding: 1.2em 0em;
+            }
+
+            main {
+                background-color: #8bb63f;
+                padding: 1em 0em;
+            }
+
+            .blanc {
+                padding: 3em 0em;
+                background-color: white;
+                margin: 30px 40px;
+            }
+
+            .espace {
+                padding: 4em 0em;
+            }
+
+            footer {
+                background-color: #9aaaf8;
+                padding: 1.2em 0em;
+            }
+        }
+
+
+        @media (min-width: 960px) {
+            body {
+                font-size: 2.2em;
+                font-family: Montserrat;
+                font-weight: 500;
+                text-align: center;
+            }
+
+            .entete {
+                background-color: #fdc702;
+                padding: .6em 0em;
+            }
+
+            .menu {
+                float: left;
+                width: 40%;
+                background-color: #ffa600;
+                padding: 1.2em 0em 8em 0em;
+                border-bottom: #8bb63f solid 2em;
+                border-right: #8bb63f solid 2em;
+
+            }
+
+            main {
+                background-color: #8bb63f;
+                padding: 2em 6em;
+            }
+
+            .blanc {
+                padding: 6em 0em;
+                background-color: white;
+                margin: 30px 40px;
+            }
+
+            .espace {
+                padding: 4em 0em;
+            }
+
+            footer {
+                background-color: #9aaaf8;
+                padding: 1.2em 0em;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="entete">En-tete</h1>
+        <nav class="menu">
+            <h1>Menu</h1>
+        </nav>
+    </header>
+    <main>
+        <h1>Contenu texte</h1>
+        <div class="blanc"></div>
+        <div class="blanc espace"></div>
+        <div class="blanc"></div>
+    </main>
+    <footer>
+        <h1>Pied de page</h1>
+    </footer>
+</body>
+
+</html>
